@@ -120,6 +120,7 @@ class ULListStr {
    *   - MUST RUN in O(n) 
    */
   std::string* getValAtLoc(size_t loc) const;
+  std::string* getValAtLocHelper(size_t loc, Item *currentNode, size_t index) const;
 
 
   /**
